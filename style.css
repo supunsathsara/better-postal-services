@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+.bg {
+	background-color: crimson;
+}
+.navbar {
+	padding: 0;
+	background-color: red;
+}
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+
+@media(max-width: 767px) {
+	.ul-bg {
+		background-color: coral;
+	}
+}
+.nav-link:hover{
+	color: blueviolet !important; 
+
+}
+
+.nav-link{
+	color: #fff ;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active{
+	background-color: purple !important;
+	border-color: purple !important;
+}
+
+.c-item{
+	height: 600px;
+	width: 100%;
+}
+
+.c-img{
+	height: 100%;
+	object-fit: cover;
+	filter: brightness(0.6);
+}
